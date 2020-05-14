@@ -1,0 +1,51 @@
+h1{
+	background-color:#0066CC;
+	color:white;
+	font-size:120%;
+}
+
+h2{
+	background-color:#0099CC;
+}
+
+table{
+	width:25%;
+	font-family:Verdana;
+	background-color:#F0F0F0;
+}
+
+tr{
+	background-color:light gray;
+}
+
+tr.prima{
+	background-color:#0066CC;
+	color:white;
+	font-size:120;
+}
+
+tr.seconda{
+	background-color:#0099CC;
+}
+
+.myButton{
+		width:8%;
+		height:3%;
+		text-align:justify;
+		text-justify:auto;
+		display:block;
+		position:fixed;
+		right:13%;
+		bottom:2%;
+}
+
+.nome{
+	text-align:right;
+}
+
+.firma{
+	position:fixed;
+	right:20%;
+	bottom:0%;
+	display:none;
+}

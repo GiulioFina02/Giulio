@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>	
+	<link rel = "stylesheet" type = "text/css" href = "css/SistemaSolare.css" />
+	<meta charet = "UTF-8">
+	<title>Sistema Solare</title>
+</head>
+<body>
+	<h1>Sistema Solare</h1>
+	<p>Le dimensioni del sistema solare sono difficilmente definibili; approssimativamente lo si
+	considera come una sfera irregolare con un diametro di circa 80 UA. All'interno del
+	sistema solare lo spazio tra un corpo celeste e un altro non è vuoto: esso è permeato dal
+	cosiddetto mezzo interplanetario, comprendente pulviscolo, gas e particelle elementari
+	</p>
+	<p>Il Sole ha una particolare importanza sia perchè è l'unica stella, e quindi l'unica fonte di 
+	energia termica del sistema, sia perchè ne rappresenta con ottima approssimazione il 
+	centro gravitazionale. La massa solare, infatti, costituisce circa il 99,9% della materia
+	presente nel sistema. 
+	</p>
+	<h2>Classificazione dei pianeti</h2>
+	<ul>
+		<li class = "Terrestri">Pianeti Terrestri</li>
+			<ul>
+				<li>Mercurio</li>
+				<li>Venere</li>
+				<li>Terra</li>
+				<li>Marte</li>
+			</ul>
+		<li class = "Gioviani">Pianeti Gioviani</li>
+			<ul>
+				<li>Giove</li>
+				<li>Saturno</li>
+				<li>Urano</li>
+				<li>Nettuno</li>
+			</ul>
+	</ul>
+	<table>
+		<tr class = "prima">
+			<th class = "primoEl" colspan = "2" rowspan = "2">PIANETI TERRESTRI</th>
+			<th colspan = "2">Caratteristiche</th>
+		</tr>
+		<tr class = "seconda">
+			<th>Distanza</th>
+			<th>Massa</th>
+		</tr>
+		<tr>
+			<td><img src = "immagini/sistemaSolare/mercurio.jpg"></td>
+			<td>Mercurio</td>
+			<td>0.4 UA</td>
+			<td>0.055</td>
+		</tr>
+		<tr>
+			<td><img src = "immagini/sistemaSolare/venere.jpg"></td>
+			<td>Venere</td>
+			<td>0.6 UA</td>
+			<td>0.815</td>
+		</tr>
+		<tr>
+			<td><img src = "immagini/sistemaSolare/terra.jpg"></td>
+			<td>Terra</td>
+			<td>1 UA</td>
+			<td>1.000</td>
+		</tr>
+		<tr>
+			<td><img src = "immagini/sistemaSolare/marte.jpg"></td>
+			<td>Marte</td>
+			<td>1.6 UA</td>
+			<td>0.107</td>
+		</tr>
+	</table>
+	<p id = "nome" class = "nome">
+		<button class ="myButton" onclick = "bottone()">Cliccare qui per firma</button>
+		<p id = "firma", class = "firma"><b>Giulio Antonio Fina</b></p>
+	</p>
+	<script>
+	var visibile = true;
+		function bottone(){
+		visibile = !visibile;
+		if (visibile == false){
+			document.getElementById('firma').style.display='block';
+			}
+		else{
+			document.getElementById('firma').style.display='none';
+			}
+		}
+	</script>
+</body>
+</html>

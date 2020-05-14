@@ -1,0 +1,68 @@
+html{
+	font-family:Arial;
+	background-color:#0080FF;
+	color:white;
+}
+
+h1{
+	background-color:#9900CC;
+	color:yellow;
+	font-size:120%;
+}
+
+h2{
+	background-color:#6600CC;
+	color:white;
+}
+
+li.Terrestri{
+	font-size:140%;
+}
+
+li.Gioviani{
+	font-size:140%;
+}
+
+table{
+	width:25%;
+	font-family:Verdana;
+	background-color:yellow;
+	text-align:center;
+}
+
+tr{
+	background-color:#6600CC;
+	color:white;
+}
+
+tr.prima, tr.seconda{
+	background-color:#9900CC;
+	color:yellow;
+}
+
+th.primoEl{
+	font-size:120%;
+}
+
+
+.myButton{
+		width:8%;
+		height:3%;
+		text-align:justify;
+		text-justify:auto;
+		display:block;
+		position:fixed;
+		right:5%;
+		bottom:13%;
+}
+
+.nome{
+	text-align:center;
+}
+
+.firma{
+	position: fixed;
+        right:40%;
+        bottom:13%;
+        display:none;
+}

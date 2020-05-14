@@ -1,0 +1,45 @@
+h1{
+	background-color:orange;							/*Imposto il colore di sfondo per TUTTI i tag <h1> presenti nel file html.*/
+}
+
+table{
+	width:50%;
+	font-family:Verdana;
+	text-align:center;
+	background-color:#FFFF80;
+}
+
+tr.prima, tr.seconda{									/*Imposto il colore di sfondo SOLO per i tag della PRIMA e SECONDA riga (vedi classi nel file html)*/
+	background-color:orange;
+}
+
+th.doppio{												
+	font-size:120%;										/*Imposto la dimensione al 120% per l'elemento che occupa 2 righe*/	
+}
+
+td{
+	background-color:#FFC000;							/*Imposto il colore di sfondo per TUTTI i tag <td>*/
+}
+
+
+.myButton{
+		width:8%;
+		height:3%;
+		text-align:justify;
+		text-justify:auto;
+		display:block;
+		position:fixed;
+		right:13%;
+		bottom:2%;
+}
+
+.nome{
+	text-align:right;
+}
+
+.firma{
+	position:fixed;
+	right:20%;
+	bottom:0%;
+	display:none;
+}
